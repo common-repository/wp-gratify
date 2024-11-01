@@ -1,0 +1,30 @@
+/*
+ * Style for help page
+ *
+*/
+#rv_help_page {
+    margin-top: 35px;
+} 
+#rv_help_page h2{
+	background: #6c2db9;
+    padding: 22px;
+    color: white;
+    font-size: 20px;
+}
+.wp_grv_help_shotcode{
+	padding: 11px 25px 11px 30px;
+    background-color: #ffffff;
+    margin-right: 1.5%;
+    margin-top: 2px;
+}
+.wp_grv_help_shotcode p{
+	font-size: 16px;
+}
+.wp_grv_help_details_full_block {
+    margin-top: -16px;
+}
+@media only screen and (max-width: 700px) {
+    #rv_help_page h2{
+      text-align: center;
+    }
+}

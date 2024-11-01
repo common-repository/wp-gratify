@@ -1,0 +1,601 @@
+/* dashboard style*/
+/* dashboatrd header part */
+#wp_grv_dashboard_container{
+  margin-top: 35px;
+  width: 98.5%;
+}
+.wp_grv_read_dashboard_container {
+    background-color: #ffff;
+    border-radius: 4px;
+}
+.wp_grv_dashboard_width{
+  width: 100%;
+}
+.wp_grv_dashboard_width h2{
+    background: #6c2db9;
+    padding: 22px;
+    color: white;
+    font-size: 22px;
+}
+@media only screen and (max-width: 700px) {
+    .wp_grv_dashboard_width h2{
+      text-align: center;
+    }
+}
+.wp_grv_dashboard{
+  display: block;
+  margin: auto;
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 13px;
+  overflow: hidden;
+  padding: 5px 0px 61px 0px;
+   
+}
+.wp_grv_dashboard_button{
+  float: right;
+}
+
+@media only screen and (max-width: 760px) {
+  .wp_grv_circle_progress1 {
+    float: none !important;
+    margin: auto !important;
+    width: 50% !important;
+    display: block !important;
+  }
+  .wp_grv_circle_progress1 table {
+    margin: auto !important;
+  }
+
+  .wp_grv_circle_progress table{
+    float: none !important;
+    margin: auto !important;
+  }
+  .wp_grv_circle_progress {
+    float: none !important;
+    width: 100% !important;
+  }
+  .wp_grv_color_dots {
+    margin-left: 20% !important;
+    width: 65% !important;
+  }
+}  
+@media only screen and (max-width: 670px) {
+  .wp_grv_dot_set_1{
+    display: block;
+    text-align: center;
+  }
+  .wp_grv_dot_set_2{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+} 
+@media only screen and (max-width: 460px) {
+  .wp_grv_dot_set_1{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .wp_grv_dot_set_2{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .wp_grv_dot{
+    position: absolute;
+    margin-top: -1px;
+  }
+  .wp_grv_dot_div span{
+    padding-left: 18px;
+  }
+} 
+.wp_grv_rate_count{
+  height: 42px;
+  width: 42px;
+  border-radius: 5px;
+  float: left;
+  display: block;
+  margin-left: 10%;
+}
+.wp_grv_rate_count i{
+  padding-top: 11px;
+  padding-left: 11px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.wp_grv_rate_count h4{
+   padding-left: 65px;
+   margin-top: -24px;
+}
+.wp_grv_star_count h5{
+   padding-left: 80%;
+ 
+}
+#wp_grv_circle2{
+  width: 100%;
+}
+#wp_grv_circle3{
+  width: 100%;
+}
+#wp_grv_circle4{
+  width: 100%;
+}
+#wp_grv_circle5{
+ width: 100%;
+}
+.wp_grv_dot {
+  height: 18px;
+  width: 18px;
+  background-color: #2196f3;
+  border-radius: 50%;
+  display: inline-block;
+}
+.wp_grv_color_dots{
+  float: left;
+  width: 100%;
+  margin: auto;
+  margin-top: 5%;
+  font-size: 17px;  
+}
+.wp_grv_progress_circle{
+   width: 100%;
+   margin: auto;
+}
+.wp_grv_star_rating{
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+.wp_grv_div1_child1{
+
+    float: left;
+   width: 50%;
+   margin: auto;
+}
+.wp_grv_div1_child2{
+   float: left;
+   width: 50%;
+   margin: auto;
+}
+.wp_grv_circle_div{
+   width: 100%;
+   margin: auto;
+}
+.wp_grv_dot_div{
+  display: inline;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+#wp_grv_dot_div5{
+  background-color: #57c0eb;
+}
+#wp_grv_dot_div4{
+  background-color: #3badb7;
+}
+#wp_grv_dot_div3{
+  background-color: #52e3c2;
+}
+#wp_grv_dot_div2{
+  background-color: #acd403;
+}
+#wp_grv_dot_div1{
+  background-color: #c03e3e;
+}
+#wp_grv_rate_count5{
+  background-color: #f45622;
+}
+#wp_grv_rate_count4{
+  background-color: #53acfe;
+}
+#wp_grv_rate_count3{
+  background-color: #8ac416;
+}
+#wp_grv_rate_count2{
+  background-color: #f5a035;
+}
+#wp_grv_rate_count1{
+  background-color: #ffeb3b;
+}
+
+
+
+
+
+
+
+/* counter size */
+@media only screen and (max-width: 760px) {
+  .wp_grv_counter_set{
+    width: 437px;
+  }
+}  
+@media only screen and (min-width: 461px) {
+  #wp_grv_circle3 canvas{
+    height: auto !important;
+    width: 100px !important;
+  }
+  #wp_grv_circle2 canvas{
+    height: auto !important;
+    width: 100px !important;
+  }
+  #wp_grv_circle4 canvas{
+    height: auto !important;
+    width: 100px !important;
+  }
+  #wp_grv_circle5 canvas{
+    height: auto !important;
+    width: 100px !important;
+  }
+} 
+@media only screen and (max-width: 460px) {
+  .wp_grv_circle_progress {
+    padding-top: 15px !important;
+  }  
+  .wp_grv_circles_percentage_position {
+    top: -55px !important;
+    padding: 0px 12px !important;
+  }  
+  h1.wp_grv_percentage_text {
+    top: -100px !important;
+    padding: 0px 27px !important;
+    font-size: 35px !important;
+  }
+  .wp_grv_circle_progress h1 {
+    font-size: 20px !important;
+  }
+  .wp_grv_counter_set {
+    width: 288px !important;
+  }
+  #wp_grv_circle1 canvas{
+    width: 130px !important;
+    height: auto !important;
+  }
+  #wp_grv_circle2 canvas{
+    width: 65px !important;
+    height: auto !important;
+  }
+  #wp_grv_circle3 canvas{
+    width: 65px !important;
+    height: auto !important;
+  }
+  #wp_grv_circle4 canvas{
+    width: 65px !important;
+    height: auto !important;
+  }
+  #wp_grv_circle5 canvas{
+    width: 65px !important;
+    height: auto !important;
+  }
+} 
+
+/* first counter style */
+.wp_grv_circle_progress1 table{
+  margin: 0% 0% 0% 15%;
+}
+.wp_grv_circle_progress1{
+   float: left;
+   width: 40%;
+}
+@media only screen and (min-width: 1250px) {
+  .wp_grv_circle_progress1{
+   float: left;
+   width: 28%;
+  }
+}  
+#wp_grv_circle1{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+h1.wp_grv_percentage_text {
+    text-align: center;
+    position: relative;
+    top: -160px;
+    padding: 0px 57px;
+    font-size: -webkit-xxx-large;
+}
+@media screen and (min-width: 501px) and (max-width: 600px) {
+  h1.wp_grv_percentage_text {
+    top: -160px;
+  }
+}
+@media screen and (min-width: 461px) and (max-width: 500px) {
+  h1.wp_grv_percentage_text {
+    top: -155px;
+  }
+}
+/* second counter style */
+#wp_grv_circle2 canvas{
+  margin: auto;
+  display: block;
+}
+
+.wp_grv_circle_progress2{
+   float: left;
+   width: 25%;
+   margin: auto;
+}
+/* third counter style */
+#wp_grv_circle3 canvas{
+  margin: auto;
+  display: block;
+}
+.wp_grv_circle_progress3{
+   float: left;
+   width: 25%;
+   margin: auto;
+}
+/* fourth counter style */
+#wp_grv_circle4 canvas{
+  margin: auto;
+  display: block;
+}
+.wp_grv_circle_progress4{
+   float: left;
+   width: 25%;
+   margin: auto;
+}
+/* fifth counter style */
+#wp_grv_circle5 canvas{
+  margin: auto;
+  display: block;
+}
+.wp_grv_circle_progress5{
+   float: left;
+   width: 25%;
+   margin: auto;
+}
+/* common position style for 2,3,4 and 5 counter */
+.wp_grv_circles_percentage_position{
+  top: -78px;
+  padding: 0px 22px;
+  position: relative;
+  text-align: center;
+}
+
+.wp_grv_circle_progress td {
+  padding: 0px 5px 0px 0px;
+}
+/* 2,3,4 and 5 counter block div style */
+.wp_grv_circle_progress{
+  float: left;
+  width: 60%;
+  padding-top: 50px;
+  display: inline-block;
+}
+.wp_grv_circle_progress h1{
+  font-size: 28px;
+  font-weight: normal;
+}
+
+/* Basic Analysis block style */
+
+.wp_grv_div1{
+  float : left;
+  width: 35%; 
+  margin-top: 20px;
+  background: #fff;
+  box-shadow: 0px 1px 3px 0px rgba( 0, 0, 0, 0.06 );
+  border-radius: 4px;
+  padding-bottom: 1px;
+}
+@media only screen and (max-width: 760px) {
+  .wp_grv_div1{
+    width: 100%;
+  }  
+}  
+.wp_grv_analysis ul{
+  padding: 10px;
+}
+.wp_grv_analysis li{
+  display: block;
+  width: 100%;
+  min-height: 50px;
+}
+.wp_grv_analysis hr{
+  margin: -6px auto 10px auto;
+  border-top: 1px solid #f7f7f7;
+}  
+.wp_grv_rate_count_list{
+  float: left;
+  width:20%;
+}
+.wp_grv_analysis_rate{
+   float: left;
+   width: 45%;
+   display: block;
+   margin-left: 2%;
+   margin-top: -5px;
+}
+.wp_grv_analysis_rate h3{
+  font-size: 15px;
+  font-weight: 500;
+}
+.wp_grv_analysis_unit{
+  float: left;
+  width: 20%;
+  display: block;
+  text-align: right;
+  margin-top: -6px;
+}
+.wp_grv_analysis_unit h5{
+  font-weight: normal;
+}
+
+/* Nofification  block style */
+.wp_grv_notification_circle{
+  width: 15%;
+}
+.wp_grv_div3{
+  float : left;
+  width:  64%;
+  margin-top: 20px;
+  background: #fff;
+  margin-left: 1%;
+  box-shadow: 0px 1px 3px 0px rgba( 0, 0, 0, 0.06 );
+  border-radius: 4px;
+}
+.wp_grv_review{
+  float: left;
+  width: 60%;
+  display: block;
+  padding: 6px 0px 0px 12px;
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: -6px;
+}
+.wp_grv_review span{
+  font-size: 16px;
+  font-weight: normal;
+}
+.wp_grv_review div{
+  padding-top: 1px;
+}
+.wp_grv_star_rate{
+  float: left;
+  width: 17%;
+  padding: 7px 0px 0px 0px;
+  text-align: right;
+}
+@media only screen and (max-width: 760px) {
+  .wp_grv_div3{
+    width:  100%;
+    margin-left: 0%;
+  }
+  .wp_grv_notification_circle{
+    width: 15%;
+  }
+  .wp_grv_star_rate{
+    float: left;
+    width: 18%;
+    padding: 7px 0px 0px 0px;
+    text-align: right;
+  }
+  .wp_grv_list li {
+    min-height: 60px !important;
+  }  
+
+} 
+@media only screen and (max-width: 460px) {
+  .wp_grv_star_rate{
+    font-size: 10px;
+    margin-top: 8px;
+  }
+  .wp_grv_review span{
+    font-size: 13px;
+  }
+  .wp_grv_review {
+    padding: 0px 0px 0px 12px;
+    margin-top: -2px;
+  } 
+  .wp_grv_review div {
+    font-size: 10px;
+    margin-top: -4px;
+  } 
+}
+@media only screen and (max-width: 380px) {
+  .wp_grv_star_rate{
+    font-size: 8px;
+    width: 19%;
+  }
+  .wp_grv_review span{
+    font-size: 11px;
+  }
+}
+ul.wp_grv_list{
+  padding: 4.5px 10px;
+  margin-left: 25px;
+}
+.wp_grv_list li{
+    display: block;
+    width: 100%;
+    min-height: 52px;
+}
+.wp_grv_dashboard_text {
+  padding-top: 25px;
+  padding: 10px 40px;
+  font-size: 18px;
+}
+@media only screen and (max-width: 460px) {
+  .wp_grv_dashboard_text {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}  
+.wp_grv_circles{
+  height: 40px;
+  width: 40px;
+  background-color: #ded4d4;
+  border-radius: 50%;
+  margin-left: 4%;
+  float: left;
+  display: block;
+}
+
+.wp_grv_circles h2{
+    text-align: center;
+    color: #fff;
+    font-size: large;
+    margin-top: 11px;
+}
+.wp_grv_circles1{
+  background-color: #b0c3c3;
+}
+.wp_grv_circles2{
+  background-color: #899281;
+}
+.wp_grv_circles3{
+  background-color: #7b6d67;
+}
+.wp_grv_circles4{
+  background-color: #8d4a24;
+}
+.wp_grv_circles5{
+  background-color: #629bb4;
+}
+/* read and unread button style */
+.wp_grv_read_unread_block{
+  padding: 55px 10px 20px 0px;
+  width: 98.5%;
+  display: block;
+  margin: auto auto -16px auto;
+}
+#wp_grv_unread_btn{
+  float: right;
+  margin-top: -15px;
+  margin-left: 10px;
+}
+#wp_grv_read_btn{
+  float: right;
+  margin-top: -15px;
+}
+@media only screen and (max-width: 700px) {
+  #wp_grv_unread_btn {
+    float: right;
+    width: 47%;
+    margin-top: -15px;
+    margin-left: 2%;
+  }
+  #wp_grv_read_btn {
+    float: right;
+    width: 48%;
+    margin-top: -15px;
+  }
+  .wp_grv_read_unread_block {
+    margin: auto 0% -16px -0.3%;
+}
+}  
+@media only screen and (max-width: 500px) {
+ #wp_grv_dashboard_container #wp_grv_ajax_notification_load{
+    background-color: #6415a5;
+  }
+  .wp_grv_dashboard_width {
+    display: grid;
+  } 
+  .wp_grv_dashboard_width h2 {
+    margin: 0px;
+    font-size: 18px !important;
+    padding: 14px !important;
+  } 
+}

@@ -1,0 +1,20 @@
+/*
+ * style for gutenberg blocks
+ *
+*/
+/*style for review archive card block*/
+.wp-block-wpgrvgutenberg-wpgrvreviewarchivecard {
+    color: #171d23;
+    background: #f1f1f1;
+    border: 1px solid #6c2db9;
+    border-radius: 5px;
+    padding: 20px !important;
+}
+/*style for review card block*/
+.wp-block-wpgrvgutenberg-wpgrvreviewintakeform {
+    color: #171d23;
+    background: #f1f1f1;
+    border: 1px solid #6c2db9;
+    border-radius: 5px;
+    padding: 20px !important;
+}

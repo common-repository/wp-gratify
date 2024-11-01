@@ -1,0 +1,411 @@
+/*
+ * Style for duplicate name block in review intake form
+ *
+*/
+#wp_grv_duplicate_data_block{
+  display: none;
+}
+/*
+ * Style for review intake form
+ *
+*/
+.wp_grv_field{
+  padding: 10px !important;
+}
+div#wp_grv_add_new_page {
+	box-shadow: 0px 0px 9px 1px #e8e8e8;
+}
+.wp_grv_add_new_form_head{
+	background-color: #410567;
+	padding: 13px 10px 1px 20px !important;
+	display: block;
+	width: 100%;
+}
+.wp_grv_add_new_form_head h2{
+	color: #fff;
+	font-weight: 500;
+  margin: 2px 0px;
+}
+.wp_grv_add_new_form_head p{
+	color: #ffff;
+	margin: -10px 0px 10px 0px;
+}
+@media only screen and (max-width: 330px) {
+  .wp_grv_add_new_form_head p{
+	font-size: 12px;
+  }
+}
+/* style for icon and text alignment */
+.wp_grv_add_new_form_head_icon {
+	display: block;
+	width: 15%;
+	float: left;
+}
+@media only screen and (max-width: 760px) {
+   .wp_grv_add_new_form_head_icon {
+	width: 10%;
+  }
+}
+@media only screen and (max-width: 500px) {
+   .wp_grv_add_new_form_head_icon {
+	width: 15%;
+  }
+}
+.wp_grv_add_new_form_head_text {
+	display: inline-block;
+	width: 63%;
+}
+/* for comment icon */
+.wp_grv_add_new_form_head_icon i.fa.fa-commenting {
+	color: #ffff;
+	font-size: 3em;
+}
+@media only screen and (max-width: 425px) {
+	.wp_grv_add_new_form_head_icon i.fa.fa-commenting {
+		font-size: 2em;
+	}
+}
+/* form content section */
+form#wp_grv_add_new_form {
+	margin-top: 40px;
+	padding-bottom: 31px;
+}
+.wp_grv_add_new_form_content {
+	margin: auto;
+	width: 90%;
+}
+form#wp_grv_add_new_form label{
+	  margin: 18px 0px 2px 2px;
+	  display: block;
+}
+form#wp_grv_add_new_form input[type="text"],form#wp_grv_add_new_form input[type="email"],form#wp_grv_add_new_form textarea{
+	  background-color: #f7f7f7;
+	border-radius: 4px;
+	color: #777;
+	padding: 10px;
+	width: 100%;
+}
+/*
+ * style for star rating
+ *
+*/
+.rv_add_rating_style {
+	position: relative;
+	display: table-cell;
+	border: none;
+	font-size: 14px;
+	left: 45%;
+	transform: translateX(-50%);
+}
+.rv_add_rating_style input {
+	border: 0;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	opacity: 0;
+}
+.rv_add_rating_style label {
+	position: relative;
+	float: right;
+	color: #C8C8C8;
+}
+.rv_add_rating_style label:before {
+	margin: 5px;
+	content: "\f005";
+	font-family: FontAwesome;
+	display: inline-block;
+	font-size: 1.5em;
+	color: #ccc;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+.rv_add_rating_style input:checked ~ label:before {
+	color: #FFC107;
+}
+.rv_add_rating_style label:hover ~ label:before {
+	color: #ffdb70;
+}
+.rv_add_rating_style label:hover:before {
+	color: #FFC107;
+}
+/*
+ * style for duplicate section.
+ *
+*/
+#wp_grv_add_dup_name_check{
+	margin-top: 20px;
+}
+/*
+ * style for upload user image
+ *
+*/
+#wp_grv_add_new_form input[type="file"] {
+	display: none;
+}
+.wp_grv_custom-file-upload {
+	border: 1px solid #ccc;
+	display: inline-block;
+	padding: 6px 12px;
+	cursor: pointer;
+}
+label.wp_grv_custom-file-upload {
+	background-color: #32373b;
+	color: #fff;
+	border-radius: 4px;
+}
+label.wp_grv_custom-file-upload:hover {
+	background-color: #120c0c;
+}
+/*
+ * Style for submit button
+ *
+*/
+#wp_grv_new_rv_add_sub {
+	background-color: #01c3a9;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 3px;
+	margin-left: 4px;
+	cursor: pointer;
+	margin-top: 15px;
+}
+#wp_grv_new_rv_add_sub:hover{
+	background-color: #20af86;
+}
+/*................... Thank you message block style .............*/
+.wp_grv_thank_you_block {
+	background-color: #410665;
+	color: #ffff;
+	padding: 35px 50px 35px 50px;
+	border-radius: 10px;
+}
+.wp_grv_msg_block img{
+	display: block;
+	  margin: auto;
+	width: 18%;
+}
+.wp_grv_msg_block h1{
+	  display: block;
+	text-align: center;
+	padding: 2px;
+	font-weight: 600;
+	margin: 0px;
+	color: #ffff;
+}
+.wp_grv_msg_block h3{
+	  display: block;
+	color: #ffff;
+	text-align: center;
+	padding: 0px;
+	margin: 2%;
+}
+h1#wp_grv_countdowntimer {
+	display: block;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	color: #ffff;
+}
+/* social medua link button alignment */
+.wp_grv_social_meadia_link_block {
+	width: 100%;
+	background-color: #ffff;
+	display: inline-block;
+	padding: 2% 0% 1% 2%;
+	border-radius: 2px;
+}
+input.wp_grv_social_meadia_btn {
+	margin-right: 1%;
+	width: 32%;
+	float: left;
+	margin-bottom: 1%;
+}
+/* upload successfull text style */
+.wp_grv_upload_success_msg{
+	color: #1f7d23;
+	font-weight: 600;
+}
+/*
+ * loader style
+ *
+*/
+#fountainTextG{
+  width: 110px;
+  margin: 0px 0px -7px 10px;
+  display: none;
+}
+
+.fountainTextG{
+  color: rgb(49, 55, 58);
+  font-family:Arial;
+  font-size:16px;
+  text-decoration:none;
+  font-weight:normal;
+  font-style:normal;
+  float:left;
+  animation-name:bounce_fountainTextG;
+	-o-animation-name:bounce_fountainTextG;
+	-ms-animation-name:bounce_fountainTextG;
+	-webkit-animation-name:bounce_fountainTextG;
+	-moz-animation-name:bounce_fountainTextG;
+  animation-duration:2.09s;
+	-o-animation-duration:2.09s;
+	-ms-animation-duration:2.09s;
+	-webkit-animation-duration:2.09s;
+	-moz-animation-duration:2.09s;
+  animation-iteration-count:infinite;
+	-o-animation-iteration-count:infinite;
+	-ms-animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-iteration-count:infinite;
+  animation-direction:normal;
+	-o-animation-direction:normal;
+	-ms-animation-direction:normal;
+	-webkit-animation-direction:normal;
+	-moz-animation-direction:normal;
+  transform:scale(.5);
+	-o-transform:scale(.5);
+	-ms-transform:scale(.5);
+	-webkit-transform:scale(.5);
+	-moz-transform:scale(.5);
+}#fountainTextG_1{
+  animation-delay:0.75s;
+	-o-animation-delay:0.75s;
+	-ms-animation-delay:0.75s;
+	-webkit-animation-delay:0.75s;
+	-moz-animation-delay:0.75s;
+}
+#fountainTextG_2{
+  animation-delay:0.9s;
+	-o-animation-delay:0.9s;
+	-ms-animation-delay:0.9s;
+	-webkit-animation-delay:0.9s;
+	-moz-animation-delay:0.9s;
+}
+#fountainTextG_3{
+  animation-delay:1.05s;
+	-o-animation-delay:1.05s;
+	-ms-animation-delay:1.05s;
+	-webkit-animation-delay:1.05s;
+	-moz-animation-delay:1.05s;
+}
+#fountainTextG_4{
+  animation-delay:1.2s;
+	-o-animation-delay:1.2s;
+	-ms-animation-delay:1.2s;
+	-webkit-animation-delay:1.2s;
+	-moz-animation-delay:1.2s;
+}
+#fountainTextG_5{
+  animation-delay:1.35s;
+	-o-animation-delay:1.35s;
+	-ms-animation-delay:1.35s;
+	-webkit-animation-delay:1.35s;
+	-moz-animation-delay:1.35s;
+}
+#fountainTextG_6{
+  animation-delay:1.5s;
+	-o-animation-delay:1.5s;
+	-ms-animation-delay:1.5s;
+	-webkit-animation-delay:1.5s;
+	-moz-animation-delay:1.5s;
+}
+#fountainTextG_7{
+  animation-delay:1.64s;
+	-o-animation-delay:1.64s;
+	-ms-animation-delay:1.64s;
+	-webkit-animation-delay:1.64s;
+	-moz-animation-delay:1.64s;
+}
+@keyframes bounce_fountainTextG{
+  0%{
+	transform:scale(1);
+	color:rgb(0,0,0);
+  }
+
+  100%{
+	transform:scale(.5);
+	color:rgb(255,255,255);
+  }
+}
+
+@-o-keyframes bounce_fountainTextG{
+  0%{
+	-o-transform:scale(1);
+	color:rgb(0,0,0);
+  }
+
+  100%{
+	-o-transform:scale(.5);
+	color:rgb(255,255,255);
+  }
+}
+
+@-ms-keyframes bounce_fountainTextG{
+  0%{
+	-ms-transform:scale(1);
+	color:rgb(0,0,0);
+  }
+
+  100%{
+	-ms-transform:scale(.5);
+	color:rgb(255,255,255);
+  }
+}
+
+@-webkit-keyframes bounce_fountainTextG{
+  0%{
+	-webkit-transform:scale(1);
+	color:rgb(0,0,0);
+  }
+
+  100%{
+	-webkit-transform:scale(.5);
+	color:rgb(255,255,255);
+  }
+}
+
+@-moz-keyframes bounce_fountainTextG{
+  0%{
+	-moz-transform:scale(1);
+	color:rgb(0,0,0);
+  }
+
+  100%{
+	-moz-transform:scale(.5);
+	color:rgb(255,255,255);
+  }
+}
+/*
+ * loading bar style for add user image
+ *
+*/
+.wp_grv_loading_bar {
+	width: 98%;
+	margin: auto;
+	width: 100%;
+	height: 20px;
+	border: 1px solid #49006b;
+	border-radius: 3px;
+	background-image: repeating-linear-gradient( -45deg, #5d0686, #49006b 11px, #eee 10px, #eee 20px /* determines size */ );
+	background-size: 28px 28px;
+	animation: move .5s linear infinite;
+}
+
+@keyframes move {
+  0% {
+	background-position: 0 0;
+  }
+  100% {
+	background-position: 28px 0;
+  }
+}

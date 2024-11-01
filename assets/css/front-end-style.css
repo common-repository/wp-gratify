@@ -1,0 +1,57 @@
+/*
+ * style for front review add popup
+ *
+*/
+/* wp_grv required symbol */
+.wp_grv_required:after{
+ content:"*" ;
+}
+#wp_grv_rv_add_done_icon {
+	color: #68a927;
+	font-size: 200px;
+	display: block;
+	text-align: center;
+	margin-top: -1%;
+}
+.wp_grv_add_rv_popup_cls {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.wp_grv_add_rv_popup_content_cls {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+/* for business hours shortcode */
+.wp_grv_business_hrs_display_table{
+	background-color:#f2f2f2;
+	border: none;
+}
+.wp_grv_business_hrs_display_table *{
+	text-align: center;
+	border: none;
+}
+.wp_grv_business_hrs_display_table tr:nth-child(even){background-color: #fff}
+@media only screen and (max-width: 800px){
+table.wp_grv_business_hrs_display_table {
+    width: 100% !important;
+}
+}
+@media only screen and (max-width: 480px){
+.wp_grv_business_hrs_display_table td{
+    width: 0% !important;
+}
+}

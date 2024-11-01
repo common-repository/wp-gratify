@@ -1,0 +1,37 @@
+/*
+ * style for tooltip
+ *
+*/  
+.wp_grv_tooltip {
+  position: relative;
+  display: initial;
+}
+
+.wp_grv_tooltip .wp_grv_tooltip_text {
+  visibility: hidden;
+  width: 20vw;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  left: 104%;
+}
+
+.wp_grv_tooltip .wp_grv_tooltip_text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+
+.wp_grv_tooltip:hover .wp_grv_tooltip_text {
+  visibility: visible;
+}
